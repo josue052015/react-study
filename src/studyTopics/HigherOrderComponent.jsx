@@ -41,6 +41,8 @@ const WithRandomNumber = Component => {
   return NewComponent;
 }
 
+// Whereas a component transforms props into UI, a higher-order component transforms a component into another component.
+//A higher-order component (HOC) is an advanced technique in React for reusing component logic.
 
 const HigherOrderComponent = () => {
 
