@@ -46,7 +46,7 @@ const WithRandomNumber = Component => {
 
 const HigherOrderComponent = () => {
 
-  //this is an example about the base functionality about this
+  //this is an example about the base functionality about high-order funtion
   useEffect(() => {
     HigherOrderFunctionExample();
   }, [])

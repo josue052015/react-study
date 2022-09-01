@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { ControlledVsUncontrolledComponent,HigherOrderComponent } from './studyTopics'
+import { ControlledVsUncontrolledComponent,HigherOrderComponent, ShowContext } from './studyTopics'
 
 function App() {
   return (
     <>
       <ControlledVsUncontrolledComponent />
       <HigherOrderComponent/>
+      <ShowContext/>
     </>
   );
 }
