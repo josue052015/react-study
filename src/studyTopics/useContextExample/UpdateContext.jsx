@@ -8,7 +8,6 @@ const UpdateContext = () => {
 
     return (
         <>
-
             <h2>Updated context</h2>
 
             <UserContext.Provider value={anotherUserMock}>
