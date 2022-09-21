@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { ControlledVsUncontrolledComponent,HigherOrderComponent, ShowContext } from './studyTopics'
+import { ControlledVsUncontrolledComponent,HigherOrderComponent, ShowContext,UseMemoHook } from './studyTopics'
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
       <ControlledVsUncontrolledComponent />
       <HigherOrderComponent/>
       <ShowContext/>
+      <UseMemoHook/>
     </>
   );
 }
